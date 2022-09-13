@@ -32,7 +32,7 @@ namespace SiloHost
                     siloPort,
                     gatewayPort,
                     ip);
-            });
+            }); 
         }
 
         public static void ConfigureEndpointOptions(

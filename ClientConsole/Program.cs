@@ -12,7 +12,7 @@ namespace ClientConsole
         {
             //https://github.com/OrleansContrib/Orleans.Providers.MongoDB
             //https://dotnet.github.io/orleans/docs/implementation/cluster_management.html
-            var connectionString = "mongodb://2.12.100.62:27017/OrleansTestApp";
+            var connectionString = "mongodb://***.***.***.***:27017/OrleansTestApp";
             var createShardKey = true;
 
             var client = new ClientBuilder()
